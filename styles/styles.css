@@ -1,0 +1,70 @@
+*{
+    box-sizing:border-box;
+    margin: 0; 
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+  }
+  html{
+    font-family: Montserrat;
+}
+
+main{
+    background-image: url('../img/fondo.jpg');
+    background-size: cover;
+    height: 40vh;
+    max-height: 270px;
+    min-height: 260px;
+    position: relative;
+    color: white;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, .16);
+
+}
+
+.overlay{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(3, 39, 52, 0.742);
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.336);
+}
+
+.person-photo{
+    width: 70%;
+    max-width: 400px;
+    margin: auto;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.336);
+
+}
+#resumen{
+    margin-top: 150px;
+}
+
+@media (max-width: 380px){
+    #resumen{
+        margin-top: 100px;
+    }
+}
+
+.apt-lic-form{
+    border: solid 3px #084f69;
+    
+}
+
+.svg-contact-icon{
+    width: 20px;
+    height: 20px;
+    margin: .5rem;
+}
+
+.gradiant-title:hover{
+    background-image: radial-gradient(circle at 83.96% 40.9%, #00a0d1 0, #00779e 25%, #074e69 50%, #0f2937 75%, #00040b 100%);
+}
+.gradiant-title:active{
+
+    background-image: radial-gradient(circle at 17.89% 47.19%, #00a6d9 0, #007aa2 25%, #074e69 50%, #0f2634 75%, #000000 100%);
+    
+}
+
+
+
+
